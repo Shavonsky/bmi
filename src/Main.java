@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
        BmiService service = new BmiService();
 
-       int BmiService = service.calculate(80, 160);
-        System.out.println(BmiService);
+       double bmiService = service.calculate(80, 160);
+        System.out.println(bmiService);
 
-        int BmiService1 = service.calculate(100, 180);
-        System.out.println(BmiService1);
+        double bmiService1 = service.calculate(100, 180);
+        System.out.println(bmiService1);
     }
 }
